@@ -40,9 +40,11 @@ That means that `npm run dev` executes that line with npx.
 
 ### To call
 
+The json-server pkg mocks up a database-backed REST API serving json data.
+It also serves static files out of the /public directory.
 In a browser, or curl, just access the URL.
 
-    * Landing page: http://localhost:3000/
+    * Landing page (public/index.html): http://localhost:3000/
     * All decks: http://localhost:3000/decks
     * Deck with id=1: http://localhost:3000/decks/1
     * Public decks: http://localhost:3000/decks?public=true
