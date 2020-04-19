@@ -50,6 +50,17 @@ In a browser, or curl, just access the URL.
 The data pretty much has to have an 'id' field (not _id). If you don't, you
 can't use the "decks/1" form, although you can still use "decks?_id=1".
 
+Strictly speaking, you can also POST to json-server. That adds the data to 
+the json data file. This example creates a new user:
+
+    >> curl --header Content-Type:application/json --request POST 
+    --data '{"id":"1004", "name":"Billy"}' http://localhost:3000/users
+
+That id has to not already be in use. This also works and avoids that gotcha:
+
+    >> curl --header Content-Type:application/json --request POST 
+    --data '{"name":"JR"}' http://localhost:3000/users/
+    
 ## References
 
 1. NPM page at https://www.npmjs.com/package/json-server
