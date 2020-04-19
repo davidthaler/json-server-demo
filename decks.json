@@ -1,0 +1,124 @@
+{
+    "decks": [
+        {
+            "id"    : 1,
+            "owner" : "Dave T",
+            "topic" : "Spanish",
+            "title" : "Family Relations",
+            "front" : "English",
+            "back"  : "Spanish",
+            "public": true,
+            "cards" : [
+                {"front" : "parents", "back" : "los padres"},
+                {"front" : "mother", "back" : "la madre"},
+                {"front" : "father", "back" : "el padre"},
+                {"front" : "child", "back" : "el niño or la niña"},
+                {"front" : "grandfather", "back" : "el abuelo"},
+                {"front" : "grandmother", "back" : "la abuela"},
+                {"front" : "daughter", "back" : "la hija"},
+                {"front" : "son", "back" : "el hijo"},
+                {"front" : "uncle", "back" : "el tío"},
+                {"front" : "aunt", "back" : "la tía"},
+                {"front" : "stepmother", "back" : "la madrastra"},
+                {"front" : "stepfather", "back" : "el padrastro"},
+                {"front" : "mother-in-law", "back" : "la suegra"},
+                {"front" : "father-in-law", "back" : "el suegro"},
+                {"front" : "brother", "back" : "el hermano"},
+                {"front" : "sister", "back" : "la hermana"}, 
+                {"front" : "cousin", "back" : "la prima / el primo"}
+            ]
+        },
+        {
+            "id"    : 2,
+            "owner" : "Dave T",
+            "topic" : "Spanish",
+            "title" : "Food",
+            "front" : "English",
+            "back"  : "Spanish",
+            "public": false,
+            "cards" : [
+                {"front" : "food", "back": "la comida"},
+                {"front" : "drinks", "back": "las bebidas"},
+                {"front" : "vegetables", "back": "las verduras"},
+                {"front" : "to cook", "back": "cocinar"},
+                {"front" : "I'm hungry", "back": "Tengo hambre"},
+                {"front" : "I'm thirsty", "back": "Tengo sed"},
+                {"front" : "breakfast", "back": "el desayuno"},
+                {"front" : "lunch", "back": "el almuerzo"},
+                {"front" : "dinner", "back": "la cena"},
+                {"front" : "sweet", "back": "dulce"},
+                {"front" : "Cheers!", "back": "¡Salud!"},
+                {"front" : "It’s very good", "back": "Está muy sabroso"},
+                {
+                    "front" : "Could I have the bill, please?", 
+                    "back": "Puedo tener la cuenta, ¿por favor?"
+                }
+            ]
+        },
+        {
+            "id"    : 3,
+            "owner" : "Duncan",
+            "topic" : "Spanish",
+            "title" : "Greetings",
+            "front" : "English",
+            "back"  : "Spanish",
+            "public": true,
+            "cards" : [
+                {"front" : "Hello", "back": "Buenos días"},
+                {"front" : "Good evening", "back": "Buenas tardes"},
+                {"front" : "Good night", "back": "Buenas noches"},
+                {"front" : "Hi", "back": "Hola"},
+                {"front" : "How’s it going?", "back": "¿Qué tal?"},
+                {"front" : "How’s it going? (formal) ", "back": "¿Cómo está?"},
+                {"front" : "Very well, thank you", "back": "Muy bien, gracias"},
+                {"front" : "What’s your name?", "back": "¿Cómo te llamas?"},
+                {"front" : "My name is …", "back": "Me llamo … "},
+                {"front" : "Goodbye", "back": "Adiós or Chau (informal)"},
+                {"front" : "See you soon", "back": "Hasta pronto"},
+                {"front" : "See you later", "back": "Hasta luego"},
+                {"front" : "Yes", "back": "Sí"},
+                {"front" : "No", "back": "No"},
+                {"front" : "I don’t know", "back": "No sé"}
+            ]
+        },
+        {
+            "id"    : 4,
+            "owner" : "Duncan",
+            "topic" : "Spanish",
+            "title" : "Pleasantries",
+            "front" : "English",
+            "back"  : "Spanish",
+            "public": false,
+            "cards" :[
+                {"front" : "Please", "back": "Por favor"},
+                {"front" : "Thank you", "back": "Gracias"},
+                {"front" : "You’re welcome", "back": "De nada"},
+                {"front" : "Pleased to meet you", "back": "Mucho gusto "},
+                {"front" : "Excuse me", "back": "Disculpe"},
+                {"front" : "pardon me", "back": "Perdón"},
+                {"front" : "Don’t worry about it", "back": "No importa "},
+                {"front" : "Good luck", "back": "Buena suerte"},
+                {"front" : "Please sit down", "back": "Siéntese, por favor"},
+                {"front" : "It’s good", "back": "Está bien"},
+                {"front" : "I’m so sorry!", "back": "¡Lo siento mucho!"}
+            ]
+        }
+    ],
+    "users":[
+        {
+            "id": 1001, 
+            "name": "Dave T", 
+            "learning": [
+                "Spanish"
+            ]
+        },
+        {
+            "id": 1002,
+            "name": "Duncan",
+            "learning":[
+                "Spanish", 
+                "javascript"
+            ]
+        }
+    ]
+}
