@@ -34,7 +34,7 @@ global install and adds the pkg to the system path.
 
 ...also works because I added this line under 'scripts' in package.json:
 
-    `"dev": "json-server --watch decks.json"`
+    `"dev": "json-server --watch db.json"`
 
 That means that `npm run dev` executes that line with npx.
 
@@ -60,7 +60,7 @@ That id has to not already be in use. This also works and avoids that gotcha:
 
     >> curl --header Content-Type:application/json --request POST 
     --data '{"name":"JR"}' http://localhost:3000/users/
-    
+
 ## References
 
 1. NPM page at https://www.npmjs.com/package/json-server
